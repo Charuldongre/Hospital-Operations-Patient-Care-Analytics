@@ -147,14 +147,3 @@ The analysis combines four relational datasets:
 - Improve patient satisfaction in lower-performing departments.
 - Monitor long-stay patients more effectively.
 
----
-
-# 📷 Dashboard Preview
-
-(Add screenshots here)
-
----
-
-# 👩‍💻 Author
-
-**Charul Dongre**
