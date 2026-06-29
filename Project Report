@@ -1,0 +1,266 @@
+# Hospital Operations & Patient Care Analytics
+
+## Business Intelligence Project Report
+
+**Prepared By:** Charul Dongre
+
+**Tools & Technologies:** Python, SQL (MySQL), Power BI
+
+---
+
+# Executive Summary
+
+Healthcare organizations generate large volumes of operational and clinical data every day. Converting this data into actionable insights is essential for improving patient care, reducing operational costs, and enhancing hospital efficiency.
+
+This project presents a comprehensive Hospital Operations & Patient Care Analytics solution developed using Python, SQL, and Power BI. Four healthcare datasets—Patients, Doctors, Admissions, and Outcomes—were integrated to analyze patient demographics, treatment costs, department performance, disease trends, readmission rates, and patient satisfaction.
+
+The project demonstrates an end-to-end analytics workflow, beginning with data preparation and feature engineering, followed by exploratory analysis, SQL-based business analytics, and interactive dashboard development. The final dashboards enable hospital administrators to monitor key performance indicators, identify operational bottlenecks, and support data-driven decision-making.
+
+---
+
+# Business Problem
+
+Modern hospitals generate thousands of patient records every day. These records contain valuable information about admissions, diseases, treatment costs, patient outcomes, and healthcare resources. However, without proper analysis, this information remains underutilized.
+
+Hospital administrators often face challenges such as:
+
+* Identifying diseases that generate the highest treatment costs.
+* Monitoring departments with high patient volumes.
+* Reducing patient readmission rates.
+* Improving patient satisfaction.
+* Optimizing hospital resource allocation.
+* Understanding treatment cost patterns across departments.
+
+The objective of this project is to transform raw healthcare data into meaningful business insights that assist hospital management in making informed operational and strategic decisions.
+
+---
+
+# Project Objectives
+
+The primary objectives of this project are:
+
+* Analyze patient demographics and admission trends.
+* Identify departments with the highest patient volumes.
+* Evaluate treatment costs across diseases and departments.
+* Measure patient satisfaction and recovery outcomes.
+* Analyze hospital readmission patterns.
+* Monitor operational efficiency using business intelligence dashboards.
+* Provide actionable recommendations to improve healthcare services.
+
+---
+
+# Dataset Overview
+
+The project utilizes four relational datasets.
+
+## Patients Dataset
+
+Contains demographic information including:
+
+* Patient ID
+* Patient Name
+* Age
+* Gender
+* City
+* Insurance Coverage
+* Blood Group
+
+Approximately 3,000 patient records.
+
+---
+
+## Doctors Dataset
+
+Contains doctor-related information:
+
+* Doctor ID
+* Doctor Name
+* Department
+* Experience
+* Qualification
+
+Approximately 100 doctors.
+
+---
+
+## Admissions Dataset
+
+Stores hospital admission details:
+
+* Admission ID
+* Patient ID
+* Doctor ID
+* Admission Date
+* Discharge Date
+* Admission Type
+* Bed Type
+
+Approximately 10,000 admissions.
+
+---
+
+## Outcomes Dataset
+
+Contains treatment outcome information:
+
+* Disease
+* Treatment Cost
+* Patient Satisfaction
+* Readmission Status
+* Recovery Status
+
+Approximately 10,000 treatment records.
+
+---
+
+# Technology Stack
+
+| Technology  | Purpose                                                       |
+| ----------- | ------------------------------------------------------------- |
+| Python      | Data Cleaning, Feature Engineering, Exploratory Data Analysis |
+| Pandas      | Data Manipulation                                             |
+| NumPy       | Numerical Analysis                                            |
+| Matplotlib  | Data Visualization                                            |
+| SQL (MySQL) | Business Querying & Analytical Reporting                      |
+| Power BI    | Dashboard Development                                         |
+
+---
+
+# Project Methodology
+
+The project followed a structured analytics workflow.
+
+## Step 1: Data Collection
+
+Four healthcare datasets were collected and imported into Python.
+
+## Step 2: Data Cleaning
+
+Data quality checks were performed to ensure consistency across all datasets. Missing values, duplicate records, and inconsistent data types were handled before analysis.
+
+## Step 3: Data Integration
+
+The Patients, Doctors, Admissions, and Outcomes datasets were merged into a single analytical dataset using common identifiers.
+
+## Step 4: Feature Engineering
+
+Additional business metrics were created to improve analysis, including:
+
+* Length of Stay
+* Cost per Day
+* Age Group
+* Admission Month
+* Admission Year
+
+These engineered features enabled more meaningful business analysis and visualization.
+
+## Step 5: Exploratory Data Analysis
+
+Python was used to identify patterns in:
+
+* Disease distribution
+* Department performance
+* Treatment costs
+* Patient demographics
+* Hospital stay duration
+* Recovery outcomes
+
+## Step 6: SQL Business Analysis
+
+Advanced SQL queries were developed to answer business questions related to:
+
+* Department performance
+* Readmission rates
+* Doctor rankings
+* Patient satisfaction
+* Treatment costs
+* Hospital admissions
+
+The analysis utilized joins, common table expressions (CTEs), window functions, ranking functions, and subqueries.
+
+## Step 7: Dashboard Development
+
+Power BI dashboards were developed to provide an interactive view of hospital operations and patient care metrics.
+
+---
+
+# Dashboard Overview
+
+## Executive Overview
+
+This dashboard provides a high-level summary of hospital operations through KPIs such as total patients, average treatment cost, average hospital stay, readmission rate, and patient satisfaction.
+
+---
+
+## Department Analytics
+
+This page evaluates departmental performance by analyzing patient volume, treatment costs, and average length of stay across hospital departments.
+
+---
+
+## Disease Analytics
+
+The Disease Analytics dashboard highlights disease prevalence, treatment expenditure, and readmission patterns, enabling management to identify high-risk and high-cost conditions.
+
+---
+
+## Patient Outcome Analytics
+
+This dashboard focuses on recovery status, patient satisfaction, and readmission trends to assess the overall quality of healthcare services.
+
+---
+
+## Financial Analytics
+
+Financial analysis includes treatment costs by department, disease, and bed type, providing insights into resource utilization and operational expenditure.
+
+---
+
+# Key Business Insights
+
+The analysis revealed several important findings:
+
+* Cancer treatments generated the highest average treatment costs, indicating significant resource utilization within the Oncology department.
+* Longer hospital stays were strongly associated with increased treatment costs.
+* Readmission rates varied across diseases, highlighting opportunities for improving post-discharge care.
+* Patient satisfaction differed among departments, suggesting variations in service quality.
+* Certain departments consistently handled higher patient volumes, indicating greater operational workload.
+* ICU admissions contributed significantly to overall treatment expenditure due to higher levels of specialized care.
+
+---
+
+# Business Recommendations
+
+Based on the analysis, the following recommendations are proposed:
+
+* Implement targeted follow-up programs for diseases with high readmission rates.
+* Allocate additional resources to departments experiencing consistently high patient volumes.
+* Monitor high-cost diseases to improve budget planning and resource allocation.
+* Introduce initiatives to improve patient satisfaction in lower-performing departments.
+* Optimize treatment pathways for patients with extended hospital stays.
+* Use dashboard insights for continuous performance monitoring and strategic decision-making.
+
+---
+
+# Business Value
+
+This project demonstrates how healthcare organizations can leverage business intelligence to improve operational efficiency and patient outcomes.
+
+The integrated analytics platform enables stakeholders to:
+
+* Monitor hospital performance in real time.
+* Identify cost-intensive diseases and departments.
+* Improve resource allocation.
+* Enhance patient satisfaction.
+* Reduce avoidable readmissions.
+* Support evidence-based healthcare management.
+
+---
+
+# Conclusion
+
+The Hospital Operations & Patient Care Analytics project successfully transformed raw healthcare data into a comprehensive business intelligence solution.
+
+Through the integration of Python, SQL, and Power BI, the project provides a complete analytical framework for monitoring hospital operations, evaluating clinical outcomes, and supporting strategic decision-making.
+
+The solution demonstrates practical applications of data analytics within the healthcare domain and highlights how business intelligence can contribute to improved operational performance, better patient care, and more informed management decisions.
